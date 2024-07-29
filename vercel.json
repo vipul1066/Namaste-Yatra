@@ -10,19 +10,8 @@
         {
             "src": "/(.*)",
             "dest": "/app.js"
-        },
-        {
-            "src": "/listings/(.*)",
-            "dest": "/app.js"
-        },
-        {
-            "src": "/listings/:id/reviews/(.*)",
-            "dest": "/app.js"
-        },
-        {
-            "src": "/users/(.*)",
-            "dest": "/app.js"
         }
+        
         
     ]
 }
