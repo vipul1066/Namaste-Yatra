@@ -102,9 +102,9 @@ app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
-app.get("/", (req, res) => {
-    res.render("users/signup");
-});
+// app.get("/", (req, res) => {
+//     res.render("users/signup");
+// });
 
 
 app.all("*",(req,res,next) =>{
